@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_92
+Premain-Class: zoho.crm.security.agent.InjectionAgent
+Main-Class: zoho.crm.security.agent.InjectionAgent
+Agent-Class: zoho.crm.security.agent.InjectionAgent
+Boot-Class-Path: ./Untitled.jar,./asm-9.5.jar,./asm-tree-9.5.jar
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Can-Set-Native-Method-Prefix: true
